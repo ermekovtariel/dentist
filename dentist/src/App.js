@@ -1,15 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Input } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import { useRoutes } from './routes';
 
 function App() {
-  return (
-    <div className='App'>
-      <Input size='large' placeholder='large size' prefix={<UserOutlined />} />
-      Tariel
-    </div>
-  );
+  const routes = useRoutes(false);
+  return <div className='App'>{routes}</div>;
 }
 
 export default App;
