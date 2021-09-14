@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "dantistSecret": "toothEtoubAlTish",
+  "mongoURI": "mongodb+srv://admin:12tch.12T@cluster0.xlg3n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
